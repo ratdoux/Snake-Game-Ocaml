@@ -1,8 +1,5 @@
 #use "snake.ml";;
 
-
-let snek = init_play();;
-
 let scoreint : int ref = ref 0;;
 
 let score() : unit =
