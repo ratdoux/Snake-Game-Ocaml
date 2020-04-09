@@ -139,13 +139,7 @@ let simulation() : unit =
     )
 ;;
 
-clear_graph();;
 open_graph(699,699);;
-simulation();;
-draw_whole_snake(init_snake());;
-add_snake_tail(init_play());;
-
-let snek = init_play();;
 
 
 let play() : (unit) =
